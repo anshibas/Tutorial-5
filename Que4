@@ -1,0 +1,15 @@
+class Student:
+    def __init__(self, name, roll_number):
+        self.name = name
+        self.roll_number = roll_number
+
+    def dataprint(self):
+        print(f"Name: {self.name}, Roll Number: {self.roll_number}")
+
+# Creating two instances
+student1 = Student("Aarav Sharma", 101)
+student2 = Student("Diya Patel", 102)
+
+# Calling the dataprint() method
+student1.dataprint()
+student2.dataprint()
